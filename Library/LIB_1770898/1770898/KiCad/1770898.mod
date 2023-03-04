@@ -1,0 +1,73 @@
+PCBNEW-LibModule-V1  2021-04-08 19:31:06
+# encoding utf-8
+Units mm
+$INDEX
+1770898
+$EndINDEX
+$MODULE 1770898
+Po 0 0 0 15 606f4bea 00000000 ~~
+Li 1770898
+Cd 1770898-2
+Kw Connector
+Sc 0
+At STD
+AR 
+Op 0 0 0
+T0 1.700 -2.2 1.27 1.27 0 0.254 N V 21 N "J**"
+T1 1.700 -2.2 1.27 1.27 0 0.254 N I 21 N "1770898"
+DS -2.5 -7.2 5.5 -7.2 0.2 24
+DS 5.5 -7.2 5.5 2.8 0.2 24
+DS 5.5 2.8 -2.5 2.8 0.2 24
+DS -2.5 2.8 -2.5 -7.2 0.2 24
+DS -3.5 -8.2 6.9 -8.2 0.1 24
+DS 6.9 -8.2 6.9 3.8 0.1 24
+DS 6.9 3.8 -3.5 3.8 0.1 24
+DS -3.5 3.8 -3.5 -8.2 0.1 24
+DS 5.5 -7.2 -2.5 -7.2 0.1 21
+DS -2.5 -7.2 -2.5 2.5 0.1 21
+DS -2.5 2.5 -2.5 2.8 0.1 21
+DS -2.5 2.8 5.5 2.8 0.1 21
+$PAD
+Po 0.000 -0
+Sh "1" C 1.800 1.800 0 0 900
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.000 -5
+Sh "2" C 1.800 1.800 0 0 900
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.500 -0
+Sh "3" C 1.800 1.800 0 0 900
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.500 -5
+Sh "4" C 1.800 1.800 0 0 900
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 5.000 -0
+Sh "5" C 1.800 1.800 0 0 900
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 5.000 -5
+Sh "6" C 1.800 1.800 0 0 900
+Dr 1.2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$EndMODULE 1770898
+$EndLIBRARY

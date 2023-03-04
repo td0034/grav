@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1024890"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-26-11:52:16)
+    (utime 2022-01-26-12:24:55)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "AC3MAH1-AU-PRE")
+)
+
+
+(pinAssign "ECS_1024890"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-26-11:52:16)
+    (utime 2022-01-26-12:24:55)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1024890")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "AC3MAH1-AU-PRE")
+)
+
+
+(part "AC3MAH1-AU-PRE"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-26-11:52:16)
+    (utime 2022-01-26-12:24:55)
+    (packageRef "AC3MAH1-AU-PRE")
+    (pinAssignRef "ECS_1024890")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "XLR Connectors 3 PIN PLASTIC PANEL MOUNT PCB")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Manufacturer_Name" "Amphenol")
+    (property "Manufacturer_Part_Number" "AC3MAH1-AU-PRE")
+    (property "Datasheet_Link" "https://www.amphenol-sine.com/pdf/datasheet/AC3MAH1-AU-PRE.pdf")
+    (property "compAreaTopHeight" 25.5)
+)
+
+

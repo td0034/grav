@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NTB0102DP_125'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "NTB0102DP,125" (!) = "", "SOP65P400X110-8N", "Small Outline Packages", "8160554P", "http://uk.rs-online.com/web/p/products/8160554P", "Translation - Voltage Levels 4.4ns 6.5V 250mW", "http://uk.rs-online.com/web/p/products/8160554P", "1.1 mm"
+END_PART
+
+END.

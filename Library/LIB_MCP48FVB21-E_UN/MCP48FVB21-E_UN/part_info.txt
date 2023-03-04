@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP48FVB21-E/UN
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=1.1
+Released=2017-10-17 10:02:48
+Downloaded=2022-08-17 11:20:03
+3D=Y

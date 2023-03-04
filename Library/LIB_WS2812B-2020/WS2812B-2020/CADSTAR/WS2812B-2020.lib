@@ -1,0 +1,16 @@
+.WS2812B-2020 :1 ;LED; SMD; 2020; RGB; 2x2x0.84mm; 3.75.3V; Lens: transparent; 2kHz
+WS2812B2020
+*STM LED
+*NGS
+*PLB 1="DO" 2="GND" 3="DI" 4="VDD"
+*MXP 4
+*DFN WS2812B-2020
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Worldsemi)
+~!Manufacturer_Part_Number (WS2812B-2020)
+~!Link Datasheet (https://www.alldatasheet.com/datasheet-pdf/pdf/1134522/WORLDSEMI/WS2812B-2020.html)
+~!Height (0.84mm)
+~!3D_Model (WS2812B-2020)
+WS2812B-2020
+1.1!U 2.1!U 3.1!U 4.1!U 

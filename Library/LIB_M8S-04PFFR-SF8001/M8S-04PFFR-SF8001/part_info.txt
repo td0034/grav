@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=M8S-04PFFR-SF8001
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.4
+Released=2018-11-02 12:24:29
+Downloaded=2022-08-24 11:34:29
+3D=Y

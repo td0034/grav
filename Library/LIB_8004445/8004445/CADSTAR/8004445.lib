@@ -1,0 +1,17 @@
+.8004445 :1 ;SPDT PCB Mount Non-Latching Relay Through Hole, 16 A, 24V dc
+"8004445"
+*STM K
+*NGS
+*PLB 1="COIL_1" 2="NC_1" 3="COM_1" 4="NO_1" 5="NO_2" 6="COM_2" 7="NC_2" 8="COIL_2"
+*MXP 8
+*DFN 8004445
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (RS Components)
+~!Manufacturer_Part_Number (8004445)
+~!Allied_Number (70654336)
+~!Link Datasheet (-)
+~!Height (16mm)
+~!3D_Model (8004445)
+"8004445"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

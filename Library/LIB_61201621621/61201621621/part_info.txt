@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=61201621621
+PartCategory=Connector
+PackageCategory=Header, Shrouded - Straight PTH Box
+PinCount=16
+Version=1.1
+Released=2021-02-03 10:00:39
+Downloaded=2022-01-26 17:49:45
+3D=Y

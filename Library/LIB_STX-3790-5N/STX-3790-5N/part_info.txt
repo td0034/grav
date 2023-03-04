@@ -1,0 +1,9 @@
+Manufacturer=Kycon
+PartNumber=STX-3790-5N
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=1.4
+Released=2021-01-13 11:22:24
+Downloaded=2022-08-17 11:36:33
+3D=Y

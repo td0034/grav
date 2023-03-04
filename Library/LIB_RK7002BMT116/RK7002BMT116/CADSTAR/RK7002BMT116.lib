@@ -1,0 +1,15 @@
+.RK7002BMT116 :1 ;2.5V Drive Nch MOSFET: MOSFETs are made as ultra-low ON-resistance by the micro-processing technologies suitable for mobilr equipment for low current consumption. In wide lineup including compact type, high-power type and complex type to meet in  the market.
+BSS64AHZGT116
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN RK7002BMT116
+~!RS Part Number (1246790P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1246790P)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (RK7002BMT116)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/1246790P)
+~!Height (1.2mm)
+RK7002BMT116
+1.1!U 2.1!U 3.1!U 

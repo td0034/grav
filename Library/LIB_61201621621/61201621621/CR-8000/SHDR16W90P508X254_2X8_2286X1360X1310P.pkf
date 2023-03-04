@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SHDR16W90P508X254_2X8_2286X1360X1310P"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SHDR16W90P508X254_2X8_2286X1360X1310P")
+        (spec "default")
+    )
+)

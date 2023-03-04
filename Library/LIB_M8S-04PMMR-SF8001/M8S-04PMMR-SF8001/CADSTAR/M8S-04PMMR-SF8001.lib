@@ -1,0 +1,18 @@
+.M8S-04PMMR-SF8001 :1 ;Circular Metric Connectors M8 PANEL R/A PCB 4P M CONN M PIN
+M8S04PMMRSF8001
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=MH1 6=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="MH1" 6="MH2"
+*MXP 6
+*DFN M8S-04PMMR-SF8001
+~!RS Part Number (1747631)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1747631)
+~!Manufacturer_Name (Amphenol)
+~!Manufacturer_Part_Number (M8S-04PMMR-SF8001)
+~!Allied_Number (70970693)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/1747631)
+~!Height (14.25mm)
+~!3D_Model (M8S-04PMMR-SF8001)
+M8S-04PMMR-SF8001
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

@@ -1,0 +1,155 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PTV09A-4225F-B103"
+   (description "Bourns PTV09 Series Linear Potentiometer with a 6.8 mm Dia. Shaft, 10k, +/-20%, 0.05W, Horizontal/Rear Mount")
+   (family "RES")
+   (package "PTV09A4020FB103")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/8274990P")
+   (attribute "Geometry.Height" "20mm")
+   (attribute "RS Part Number" "8274990P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/8274990P")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "PTV09A-4225F-B103")
+   (attribute "Allied_Number" "71279417")
+   (gate
+    (symbol "PTV09A-4225F-B103")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+   )
+  )
+  (symbol "PTV09A-4225F-B103"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PTV09A4020FB103"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.85 6.9)
+      (pt 4.85 6.9)
+      (pt 4.85 -5.6)
+      (pt -4.85 -5.6)
+      (pt -4.85 6.9))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.63 7.9)
+      (pt 7.63 7.9)
+      (pt 7.63 -7.9)
+      (pt -7.63 -7.9)
+      (pt -7.63 7.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.85 3.9)
+      (pt -4.85 6.9)
+      (pt 4.85 6.9)
+      (pt 4.85 3.9))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4.85 -1.1)
+      (pt -4.85 -5.6)
+      (pt -4 -5.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4 -5.6)
+      (pt 4.85 -5.6)
+      (pt 4.85 -1.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.6 -6.8)
+      (arc (pt -2.600 -6.800) (pt -2.600 -6.900) (pt -2.400 -6.700) (start -180.0) (sweep 180.0))
+      (pt -2.4 -6.8)
+      (arc (pt -2.400 -6.800) (pt -2.600 -6.900) (pt -2.400 -6.700) (start -180.0) (sweep .0))
+      (pt -2.6 -6.8))))
+   (leg 1 (pt -2.500 -5.600) (padstack 0))
+   (leg 2 (pt 0.000 -5.600) (padstack 0))
+   (leg 3 (pt 2.500 -5.600) (padstack 0))
+   (leg 4 (pt -4.400 1.400) (padstack 4))
+   (leg 5 (pt 4.400 1.400) (padstack 5))
+   (padstack 0
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (padstack 4
+    (hole 2.9732)
+    (plated true)
+    (pad (layer TCOP) (round 4.460))
+    (pad (layer INNER) (round 4.460))
+    (pad (layer BCOP) (round 4.460))
+   )
+   (padstack 5
+    (hole 2.9732)
+    (plated true)
+    (pad (layer TCOP) (round 4.460))
+    (pad (layer INNER) (round 4.460))
+    (pad (layer BCOP) (round 4.460))
+   )
+   (model "PTV09A-4225F-B103.stp"
+    (euler 90 0 0)
+    (offset 0 0.800000011920929 4.360000133514404)
+   )
+  )
+ )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RK7002BMT116"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-05-18:05:31)
+    (mountForm default
+        (footprintRef "BSS64AHZGT116")
+        (spec "System")
+    )
+)

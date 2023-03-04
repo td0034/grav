@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RK7002BMT116'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "RK7002BMT116" (!) = "", "BSS64AHZGT116", "Other", "1246790P", "http://uk.rs-online.com/web/p/products/1246790P", "2.5V Drive Nch MOSFET: MOSFETs are made as ultra-low ON-resistance by the micro-processing technologies suitable for mobilr equipment for low current consumption. In wide lineup including compact type, high-power type and complex type to meet in  the market.", "http://uk.rs-online.com/web/p/products/1246790P", "1.2 mm"
+END_PART
+
+END.

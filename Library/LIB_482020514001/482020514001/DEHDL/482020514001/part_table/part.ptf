@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '482020514001'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "482020514001" (!) = "", "482020514001", "Other", "1854446P", "http://uk.rs-online.com/web/p/products/1854446P", "Mechanical Incremental Encoder Switch, 2", "http://uk.rs-online.com/web/p/products/1854446P", "26.9 mm"
+END_PART
+
+END.

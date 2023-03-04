@@ -1,0 +1,175 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AC3FAH2-AU-PRE"
+   (description "XLR Connectors 3 SKT PLASTIC PANEL MOUNT PCB")
+   (family "CON")
+   (package "AC3FAH2AUPRE")
+   (attribute "Datasheet Link" "http://www.amphenol-sine.com/pdf/datasheet/AC3FAH2-AU-PRE.pdf")
+   (attribute "Geometry.Height" "29.45mm")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (attribute "Manufacturer_Name" "Amphenol")
+   (attribute "Manufacturer_Part_Number" "AC3FAH2-AU-PRE")
+   (gate
+    (symbol "AC3FAH2-AU-PRE")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "G1" G1 PS)
+   )
+  )
+  (symbol "AC3FAH2-AU-PRE"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AC3FAH2AUPRE"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 16.31 12.7)
+      (pt -9.04 12.7)
+      (pt -9.04 -6.8)
+      (pt 16.31 -6.8)
+      (pt 16.31 12.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -9.04 12.7)
+      (pt 16.31 12.7)
+      (pt 16.31 -6.8)
+      (pt -9.04 -6.8)
+      (pt -9.04 12.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.04 20.2)
+      (pt 17.31 20.2)
+      (pt 17.31 -7.8)
+      (pt -10.04 -7.8)
+      (pt -10.04 20.2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.81 12.7)
+      (pt 1.81 15.3)
+      (pt -0.19 15.3)
+      (arc (pt -0.190 15.300) (pt -2.140 15.300) (pt 1.760 19.200) (start -180.0) (sweep -90.0))
+      (pt -0.19 19.2)
+      (pt 7.81 19.2)
+      (arc (pt 7.810 19.200) (pt 5.860 15.300) (pt 9.760 19.200) (start -180.0) (sweep 90.0))
+      (pt 7.81 15.3)
+      (pt 5.81 15.3)
+      (pt 5.81 12.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1.81 12.7)
+      (pt 1.81 15.3)
+      (pt -0.19 15.3)
+      (arc (pt -0.190 15.300) (pt -2.140 15.300) (pt 1.760 19.200) (start -180.0) (sweep -90.0))
+      (pt -0.19 19.2)
+      (pt 7.81 19.2)
+      (arc (pt 7.810 19.200) (pt 5.860 15.300) (pt 9.760 19.200) (start -180.0) (sweep 90.0))
+      (pt 7.81 15.3)
+      (pt 5.81 15.3)
+      (pt 5.81 12.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.6 0)
+      (arc (pt -9.600 0.000) (pt -9.600 -0.050) (pt -9.500 0.050) (start 180.0) (sweep -180.0))
+      (pt -9.5 0)
+      (arc (pt -9.500 0.000) (pt -9.600 -0.050) (pt -9.500 0.050) (start 180.0) (sweep .0))
+      (pt -9.6 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 7.620 -0.640) (padstack 2))
+   (leg 3 (pt 3.810 -4.450) (padstack 0))
+   (leg G1 (pt -4.440 5.700) (padstack 0))
+   (leg MH1 (pt 0.000 8.890) (padstack 5))
+   (leg MH2 (pt 7.620 3.810) (padstack 6))
+   (padstack 0
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (padstack 1
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (padstack 2
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 5
+    (hole 1.6)
+    (plated false)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+   (padstack 6
+    (hole 1.6)
+    (plated false)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+  )
+ )
+)

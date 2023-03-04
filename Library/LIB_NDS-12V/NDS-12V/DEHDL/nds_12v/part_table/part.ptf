@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NDS_12V'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diptronics", "NDS-12V" (!) = "", "NDS12V", "Other", "", "", "DIP Switches / SIP Switches Dip switch Slide Type", "https://componentsearchengine.com/Datasheets/1/NDS-12V.pdf", "7.05 mm"
+END_PART
+
+END.

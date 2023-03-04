@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'M74VHC1GT126DF2G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ON Semiconductor", "M74VHC1GT126DF2G" (!) = "", "M74VHC1GT126DF2G", "Other", "1867274", "http://uk.rs-online.com/web/p/products/1867274", "ON SEMICONDUCTOR - M74VHC1GT126DF2G - Buffer, 74VHC1G126, 3 V to 5.5 V, SOT-353-5", "http://uk.rs-online.com/web/p/products/1867274", "1.1 mm"
+END_PART
+
+END.

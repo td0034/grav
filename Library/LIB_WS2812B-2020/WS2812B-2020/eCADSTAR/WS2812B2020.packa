@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "WS2812B-2020"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-12-26-15:06:42)
+    (mountForm default
+        (footprintRef "WS2812B2020")
+        (spec "System")
+    )
+)

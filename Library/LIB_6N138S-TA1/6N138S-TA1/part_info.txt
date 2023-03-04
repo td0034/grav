@@ -1,0 +1,9 @@
+Manufacturer=Lite-On
+PartNumber=6N138S-TA1
+PartCategory=Phototransistor
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2018-05-09 18:38:42
+Downloaded=2022-01-25 19:19:49
+3D=N

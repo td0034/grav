@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPPH420100
+D Double Pole Double Throw (DPDT) Latching Push Button Switch, PCB, 30V dc
+K
+F http://uk.rs-online.com/web/p/products/1239052
+$ENDCMP
+#
+#End Doc Library

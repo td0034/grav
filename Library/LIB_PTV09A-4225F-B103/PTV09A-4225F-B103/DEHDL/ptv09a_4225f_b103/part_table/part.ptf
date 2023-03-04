@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTV09A_4225F_B103'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "PTV09A-4225F-B103" (!) = "", "PTV09A4020FB103", "Other", "8274990P", "http://uk.rs-online.com/web/p/products/8274990P", "71279417", "Bourns PTV09 Series Linear Potentiometer with a 6.8 mm Dia. Shaft, 10k, +/-20%, 0.05W, Horizontal/Rear Mount", "http://uk.rs-online.com/web/p/products/8274990P", "20 mm"
+END_PART
+
+END.

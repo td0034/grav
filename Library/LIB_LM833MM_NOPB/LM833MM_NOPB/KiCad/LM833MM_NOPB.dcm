@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM833MM_NOPB
+D Texas Instruments LM833MM/NOPB, Dual Audio Op Amp, 15MHz, Maximum of 36 V, 8-Pin VSSOP
+K
+F http://uk.rs-online.com/web/p/products/9142989P
+$ENDCMP
+#
+#End Doc Library

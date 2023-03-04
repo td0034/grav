@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SPPH420100'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALPS Electric", "SPPH420100" (!) = "", "SPPH420100", "Other", "1239052", "http://uk.rs-online.com/web/p/products/1239052", "Double Pole Double Throw (DPDT) Latching Push Button Switch, PCB, 30V dc", "http://uk.rs-online.com/web/p/products/1239052", "18 mm"
+END_PART
+
+END.

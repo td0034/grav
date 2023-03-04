@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=NTB0102DP,125
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-02-05 06:14:54
+Downloaded=2021-04-08 19:29:46
+3D=Y

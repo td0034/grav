@@ -1,0 +1,16 @@
+.STX-3790-5N :1 ;Phone Connectors 3.5MM VERT MNT 3POLE 5P BLK W/O PLATE
+STX37905N
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 5
+*DFN STX-3790-5N
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Kycon)
+~!Manufacturer_Part_Number (STX-3790-5N)
+~!Link Datasheet (http://www.kycon.com/Pub_Eng_Draw/STX-3790-5N.pdf)
+~!Height (13.25mm)
+~!3D_Model (STX-3790-5N)
+STX-3790-5N
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

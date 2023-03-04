@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=CD74HCT4067M
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=1.1
+Released=2019-05-03 04:41:40
+Downloaded=2021-05-06 15:59:59
+3D=Y

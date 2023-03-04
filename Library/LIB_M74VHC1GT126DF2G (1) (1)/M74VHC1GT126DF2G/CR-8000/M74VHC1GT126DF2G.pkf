@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "M74VHC1GT126DF2G"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "M74VHC1GT126DF2G")
+        (spec "default")
+    )
+)

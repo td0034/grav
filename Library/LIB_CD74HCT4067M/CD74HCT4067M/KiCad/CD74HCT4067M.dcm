@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CD74HCT4067M
+D High-speed CMOS 16-channel analog multiplexer & demultiplexer with TTL inputs
+K
+F http://uk.rs-online.com/web/p/products/6622729P
+$ENDCMP
+#
+#End Doc Library

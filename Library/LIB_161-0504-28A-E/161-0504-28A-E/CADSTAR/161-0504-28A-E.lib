@@ -1,0 +1,17 @@
+.161-0504-28A-E :1 ;Circular DIN Connectors 5 PIN DIN PCB
+"161050428AE"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=MH1 7=MH2
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="MH1" 7="MH2"
+*MXP 7
+*DFN 161-0504-28A-E
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Kobiconn)
+~!Manufacturer_Part_Number (161-0504-28A-E)
+~!Link Datasheet (https://www.mouser.co.uk/datasheet/2/209/kobicon_KC-301439-1286607.pdf)
+~!Height (19.5mm)
+~!3D_Model (161-0504-28A-E)
+"161-0504-28A-E"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 482020514001
+D Mechanical Incremental Encoder Switch, 2
+F http://uk.rs-online.com/web/p/products/1854446P
+$ENDCMP
+#
+$CMP 482020514001_no_switch
+D Mechanical Incremental Encoder Switch, 2
+F http://uk.rs-online.com/web/p/products/1854446P
+$ENDCMP
+#
+#End Doc Library

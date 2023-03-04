@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "STX-3790-5N"
+   (description "Phone Connectors 3.5MM VERT MNT 3POLE 5P BLK W/O PLATE")
+   (family "CON")
+   (package "STX37905N")
+   (attribute "Datasheet Link" "http://www.kycon.com/Pub_Eng_Draw/STX-3790-5N.pdf")
+   (attribute "Geometry.Height" "13.25mm")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (attribute "Manufacturer_Name" "Kycon")
+   (attribute "Manufacturer_Part_Number" "STX-3790-5N")
+   (gate
+    (symbol "STX-3790-5N")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+   )
+  )
+  (symbol "STX-3790-5N"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 300) (pt 600 300) (pt 600 -300) (pt 200 -300) (pt 200 300) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 300 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "STX37905N"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.65 -1.85)
+      (pt 8.65 -1.85)
+      (pt 8.65 2.65)
+      (pt -0.65 2.65)
+      (pt -0.65 -1.85))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.072 -3.797)
+      (pt 9.973 -3.797)
+      (pt 9.973 4.598)
+      (pt -2.072 4.598)
+      (pt -2.072 -3.797))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3 2.65)
+      (pt 8.65 2.65)
+      (pt 8.65 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.5 0)
+      (arc (pt -1.500 0.000) (pt -1.600 0.000) (pt -1.400 -0.200) (start 180.0) (sweep 90.0))
+      (pt -1.5 -0.2)
+      (arc (pt -1.500 -0.200) (pt -1.600 0.000) (pt -1.400 -0.200) (start 180.0) (sweep -90.0))
+      (pt -1.5 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.850 2.525) (padstack 0))
+   (leg 3 (pt 7.150 -1.725) (padstack 0))
+   (leg 4 (pt 7.900 0.800) (padstack 0))
+   (leg 5 (pt 2.450 -1.725) (padstack 0))
+   (padstack 0
+    (hole 1.43)
+    (plated true)
+    (pad (layer TCOP) (round 2.145))
+    (pad (layer INNER) (round 2.145))
+    (pad (layer BCOP) (round 2.145))
+   )
+   (model "STX-3790-5N.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

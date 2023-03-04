@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=PTA3043-2015CPB103
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=7
+Version=1.5
+Released=2020-09-08 17:00:56
+Downloaded=2022-08-17 14:37:51
+3D=Y

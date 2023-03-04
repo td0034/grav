@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "NDS12V"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "NDS12V")
+        (spec "default")
+    )
+)

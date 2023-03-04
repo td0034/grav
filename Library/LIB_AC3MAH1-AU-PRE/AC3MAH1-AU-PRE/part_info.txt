@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=AC3MAH1-AU-PRE
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=1.6
+Released=2022-01-26 11:52:16
+Downloaded=2022-01-26 12:25:06
+3D=N

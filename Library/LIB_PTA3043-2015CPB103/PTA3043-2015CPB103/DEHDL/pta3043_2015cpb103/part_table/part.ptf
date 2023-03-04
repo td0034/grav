@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTA3043_2015CPB103'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "PTA3043-2015CPB103" (!) = "", "PTA30432015CPB103", "Other", "", "", "Slide Potentiometers 15mm Shaft 10K Ohms Sgl Gang Met Lev Lin", "https://www.bourns.com/docs/Product-Datasheets/pta.pdf", "21.5 mm"
+END_PART
+
+END.

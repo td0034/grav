@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP47CVB28_E_ML'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP47CVB28-E/ML" (!) = "", "QFN50P400X400X100-21N-D", "Quad Flat No-Lead", "", "", "Digital to Analog Converters - DAC Qctal Channel, 12-Bi t, volatile, I2C DA", "https://www.mouser.mx/datasheet/2/268/MCP47CXBX4_8_Data_Sheet_20006537B-2504519.pdf", "1 mm"
+END_PART
+
+END.

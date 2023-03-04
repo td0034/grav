@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AC3MAH1-AU-PRE
+#/1024890/55039/2.49/3/3/Connector
+DEF AC3MAH1-AU-PRE J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "AC3MAH1-AU-PRE" 650 200 50 H V L CNN
+F2 "AC3MAH1AUPRE" 650 100 50 H I L CNN
+F3 "https://www.amphenol-sine.com/pdf/datasheet/AC3MAH1-AU-PRE.pdf" 650 0 50 H I L CNN
+F4 "XLR Connectors 3 PIN PLASTIC PANEL MOUNT PCB" 650 -100 50 H I L CNN "Description"
+F5 "25.5" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "RS Part Number"
+F7 "" 650 -400 50 H I L CNN "RS Price/Stock"
+F8 "Amphenol" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AC3MAH1-AU-PRE" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -200 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,17 @@
+.1770898 :1 ;Phoenix Contact COMBICON PTSM Series 2.5mm Pitch Straight PCB Terminal Block with Spring Cage Termination, Through Hole
+"1770898"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN 1770898
+~!RS Part Number (7124579)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/7124579)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1770898)
+~!Allied_Number (70170416)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/7124579)
+~!Height (5.1mm)
+~!3D_Model (1770898)
+"1770898"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

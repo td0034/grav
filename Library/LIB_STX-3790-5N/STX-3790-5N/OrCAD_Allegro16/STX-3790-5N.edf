@@ -1,0 +1,124 @@
+
+(EDIF
+  (rename &STX_3790_5N "STX_3790_5N")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 08 17 11 36 33)
+      (dataOrigin "262434/55039/2.49/5/4/Connector")
+      (program "SamacSys ECAD Model STX_3790_5N"
+        (version "1.4"))))
+  (library
+  (rename &STX_3790_5N "STX_3790_5N")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &STX_3790_5N "STX_3790_5N")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "STX_3790_5N"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "STX37905N"))
+          (property (rename &RS_Part_Number "RS Part Number") (string ""))
+          (property (rename &RS_Price_Stock "RS Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Kycon"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "STX-3790-5N"))
+          (property (rename &Description "Description") (string "Phone Connectors 3.5MM VERT MNT 3POLE 5P BLK W/O PLATE"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.kycon.com/Pub_Eng_Draw/STX-3790-5N.pdf"))
+          (property (rename &Height "Height") (string "13.25 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "STX_3790_5N"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &4 "4")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &5 "5")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (figure PIN (path (pointList (pt 200 200) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 200))))
+            )
+            (portImplementation
+              (name &3 (display PINNAME))
+              (figure PIN (path (pointList (pt 200 -800) (pt 200 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -800))))
+            )
+            (portImplementation
+              (name &4 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -300) (pt 600 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -300))))
+            )
+            (portImplementation
+              (name &5 (display PINNAME))
+              (figure PIN (path (pointList (pt 100 -800) (pt 100 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 100 -800))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 400 0)
+                  (pt 400 -600)
+                  (pt 0 -600)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 450 30))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,16 @@
+.MAX3485CSA-plus-T :1 ;RS-422/RS-485 Interface IC
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="RO" 2="'RE'" 3="DE" 4="DI" 5="GND" 6="A" 7="B" 8="VCC"
+*MXP 8
+*DFN MAX3485CSA-plus-T
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Maxim Integrated)
+~!Manufacturer_Part_Number (MAX3485CSA+T)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-339988.pdf)
+~!Height (1.75mm)
+~!3D_Model (MAX3485CSA+T)
+MAX3485CSA-plus-T
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

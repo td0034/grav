@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '61201621621'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "61201621621" (!) = "", "SHDR16W90P508X254_2X8_2286X1360X1310P", "Header, Shrouded - Straight PTH Box", "7718357", "http://uk.rs-online.com/web/p/products/7718357", "WURTH ELEKTRONIK - 61201621621 - Pin Header, Wire-to-Board, 2.54 mm, 2 Rows, 16 Contacts, Through Hole Straight, WR-BHD Series", "http://uk.rs-online.com/web/p/products/7718357", "13.1 mm"
+END_PART
+
+END.

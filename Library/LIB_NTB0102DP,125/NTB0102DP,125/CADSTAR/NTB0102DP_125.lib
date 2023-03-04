@@ -1,0 +1,16 @@
+.NTB0102DP_125 :1 ;Translation - Voltage Levels 4.4ns 6.5V 250mW
+SOP65P400X110-8N
+*STM IC
+*NGS
+*PLB 1="B2" 2="GND" 3="VCC_1" 4="A2" 5="A1" 6="OE" 7="VCC_2" 8="B1"
+*MXP 8
+*DFN NTB0102DP_125
+~!RS Part Number (8160554P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/8160554P)
+~!Manufacturer_Name (NXP)
+~!Manufacturer_Part_Number (NTB0102DP,125)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/8160554P)
+~!Height (1.1mm)
+~!3D_Model (NTB0102DP,125)
+NTB0102DP_125
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

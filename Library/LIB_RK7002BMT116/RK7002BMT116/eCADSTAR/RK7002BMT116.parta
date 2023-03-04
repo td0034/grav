@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_309081"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-09-05-12:50:47)
+    (utime 2021-10-25-08:03:30)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "RK7002BMT116")
+)
+
+
+(pinAssign "ECS_309081"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-09-05-12:50:47)
+    (utime 2021-10-25-08:03:30)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_309081")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "RK7002BMT116")
+)
+
+
+(part "RK7002BMT116"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-09-05-12:50:47)
+    (utime 2021-10-25-08:03:30)
+    (packageRef "RK7002BMT116")
+    (pinAssignRef "ECS_309081")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "2.5V Drive Nch MOSFET: MOSFETs are made as ultra-low ON-resistance by the micro-processing technologies suitable for mobilr equipment for low current consumption. In wide lineup including compact type, high-power type and complex type to meet in  the market.")
+    (property "RS_Part_Number" "1246790P")
+    (property "RS_Price/Stock" "http://uk.rs-online.com/web/p/products/1246790P")
+    (property "Manufacturer_Name" "ROHM Semiconductor")
+    (property "Manufacturer_Part_Number" "RK7002BMT116")
+    (property "Datasheet_Link" "http://uk.rs-online.com/web/p/products/1246790P")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

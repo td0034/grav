@@ -1,0 +1,16 @@
+.NDS-12V :1 ;DIP Switches / SIP Switches Dip switch Slide Type
+NDS12V
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="COM_3" 4="COM_4" 5="COM_5" 6="COM_6" 7="COM_7" 8="COM_8" 9="COM_9" 10="COM_10" 11="COM_11" 12="COM_12" 13="NO_12" 14="NO_11" 15="NO_10" 16="NO_9" 17="NO_8" 18="NO_7" 19="NO_6" 20="NO_5" 21="NO_4" 22="NO_3" 23="NO_2" 24="NO_1"
+*MXP 24
+*DFN NDS-12V
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Diptronics)
+~!Manufacturer_Part_Number (NDS-12V)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/NDS-12V.pdf)
+~!Height (7.05mm)
+~!3D_Model (NDS-12V)
+NDS-12V
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 

@@ -1,0 +1,150 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RK7002BMT116"
+   (description "2.5V Drive Nch MOSFET: MOSFETs are made as ultra-low ON-resistance by the micro-processing technologies suitable for mobilr equipment for low current consumption. In wide lineup including compact type, high-power type and complex type to meet in  the market.")
+   (family "TRX")
+   (package "BSS64AHZGT116")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/1246790P")
+   (attribute "Geometry.Height" "1.2mm")
+   (attribute "RS Part Number" "1246790P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/1246790P")
+   (attribute "Manufacturer_Name" "ROHM Semiconductor")
+   (attribute "Manufacturer_Part_Number" "RK7002BMT116")
+   (gate
+    (symbol "RK7002BMT116")
+    (pin "G" 1 PS)
+    (pin "D" 3 PS)
+    (pin "S" 2 PS)
+   )
+  )
+  (symbol "RK7002BMT116"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 100) (pt 100 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 300 300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 230 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 220) (pt 230 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -20) (pt 230 20))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 80) (pt 230 120))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 230 100) (pt 270 120) (pt 270 80) (pt 230 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 400) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BSS64AHZGT116"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.9 -1.8)
+      (pt 1.9 -1.8)
+      (pt 1.9 1.8)
+      (pt -1.9 1.8)
+      (pt -1.9 -1.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.675 -1.45)
+      (pt 0.675 -1.45)
+      (pt 0.675 1.45)
+      (pt -0.675 1.45)
+      (pt -0.675 -1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.3 -1.45)
+      (pt 0.3 -1.45)
+      (pt 0.3 1.45)
+      (pt -0.3 1.45)
+      (pt -0.3 -1.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.675 -0.5)
+      (pt 0.275 -1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.65 -1.5)
+      (pt -0.65 -1.5))))
+   (leg 1 (pt -1.150 -0.950) (padstack 0))
+   (leg 2 (pt -1.150 0.950) (padstack 0))
+   (leg 3 (pt 1.150 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.600 1.000 0 0 0.000))
+   )
+  )
+ )
+)

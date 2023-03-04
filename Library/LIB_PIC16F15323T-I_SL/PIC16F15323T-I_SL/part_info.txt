@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=PIC16F15323T-I/SL
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=2.1
+Released=2018-12-31 06:16:30
+Downloaded=2021-11-10 15:19:57
+3D=Y

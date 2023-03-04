@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SPPH420100"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-03-13:04:55)
+    (mountForm default
+        (footprintRef "SPPH420100")
+        (spec "System")
+    )
+)

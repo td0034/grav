@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PTV09A_4025F_B103'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "PTV09A-4025F-B103" (!) = "", "PTV09A4015FB103", "Other", "1814488", "http://uk.rs-online.com/web/p/products/1814488", "71279414", "Potentiometer 9mm horizontal 10K flat", "http://uk.rs-online.com/web/p/products/1814488", "15.5 mm"
+END_PART
+
+END.

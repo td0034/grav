@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'G6RL_1_24DC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Omron Electronics", "G6RL-1 24DC" (!) = "", "G6RL124DC", "Other", "0419366", "http://uk.rs-online.com/web/p/products/0419366", "SPDT PCB Mount Non-Latching Relay Through Hole, 10 (NO) A, 8 (NC) A, 24V dc", "http://uk.rs-online.com/web/p/products/0419366", "12.3 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.PTV09A-4025F-B103 :1 ;Potentiometer 9mm horizontal 10K flat
+PTV09A4015FB103
+*STM VR
+*NGS
+*PNM 1=1 2=2 3=3 4=MH1 5=MH2
+*PLB 1="CCW" 2="WIPER" 3="CW" 4="MH1" 5="MH2"
+*MXP 5
+*DFN PTV09A-4025F-B103
+~!RS Part Number (1814488)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1814488)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (PTV09A-4025F-B103)
+~!Allied_Number (71279414)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/1814488)
+~!Height (15.5mm)
+~!3D_Model (PTV09A-4025F-B103)
+PTV09A-4025F-B103
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

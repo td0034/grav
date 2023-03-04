@@ -1,0 +1,9 @@
+Manufacturer=RS Components
+PartNumber=8004445
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2021-05-08 21:38:55
+Downloaded=2021-05-17 11:36:51
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AC3MAH1_AU_PRE'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol", "AC3MAH1-AU-PRE" (!) = "", "AC3MAH1AUPRE", "Other", "", "", "XLR Connectors 3 PIN PLASTIC PANEL MOUNT PCB", "https://www.amphenol-sine.com/pdf/datasheet/AC3MAH1-AU-PRE.pdf", "25.5 mm"
+END_PART
+
+END.

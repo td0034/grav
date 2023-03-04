@@ -1,0 +1,15 @@
+.AC3MAH1-AU-PRE :1 ;XLR Connectors 3 PIN PLASTIC PANEL MOUNT PCB
+AC3MAH1AUPRE
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 5
+*DFN AC3MAH1-AU-PRE
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Amphenol)
+~!Manufacturer_Part_Number (AC3MAH1-AU-PRE)
+~!Link Datasheet (https://www.amphenol-sine.com/pdf/datasheet/AC3MAH1-AU-PRE.pdf)
+~!Height (25.5mm)
+AC3MAH1-AU-PRE
+1.1!U 2.1!U 3.1!U 

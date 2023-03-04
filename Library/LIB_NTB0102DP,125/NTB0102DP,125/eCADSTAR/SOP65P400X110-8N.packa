@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NTB0102DP_125"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-14-09:29:11)
+    (mountForm default
+        (footprintRef "SOP65P400X110-8N")
+        (spec "System")
+    )
+)

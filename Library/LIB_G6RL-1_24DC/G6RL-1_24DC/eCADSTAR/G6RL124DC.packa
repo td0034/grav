@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "G6RL-1_24DC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-10-16:37:12)
+    (mountForm default
+        (footprintRef "G6RL124DC")
+        (spec "System")
+    )
+)

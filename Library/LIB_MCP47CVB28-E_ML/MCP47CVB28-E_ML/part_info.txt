@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP47CVB28-E/ML
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=21
+Version=1.1
+Released=2021-10-25 05:05:30
+Downloaded=2022-01-25 19:07:51
+3D=Y

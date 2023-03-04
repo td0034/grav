@@ -1,0 +1,16 @@
+.MCP47CVB28-E_ML :1 ;Digital to Analog Converters - DAC Qctal Channel, 12-Bi t, volatile, I2C DA
+QFN50P400X400X100-21N-D
+*STM IC
+*NGS
+*PLB 1="A0" 2="VREF0" 3="VOUT0" 4="VOUT2" 5="VOUT4" 6="VOUT6" 7="VSS" 8="NC_1" 9="NC_2" 10="VOUT7" 11="VOUT5" 12="VOUT3" 13="VOUT1" 14="VREF1" 15="A1" 16="SCL" 17="SDA" 18="'LATA0'/HVC" 19="'LAT1'" 20="VDD" 21="EP"
+*MXP 21
+*DFN MCP47CVB28-E_ML
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP47CVB28-E/ML)
+~!Link Datasheet (https://www.mouser.mx/datasheet/2/268/MCP47CXBX4_8_Data_Sheet_20006537B-2504519.pdf)
+~!Height (1mm)
+~!3D_Model (MCP47CVB28-E_ML)
+MCP47CVB28-E_ML
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

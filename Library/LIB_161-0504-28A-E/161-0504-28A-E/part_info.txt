@@ -1,0 +1,9 @@
+Manufacturer=Kobiconn
+PartNumber=161-0504-28A-E
+PartCategory=Connector
+PackageCategory=Other
+PinCount=7
+Version=1.9
+Released=2022-01-27 12:20:34
+Downloaded=2022-02-03 08:56:01
+3D=Y

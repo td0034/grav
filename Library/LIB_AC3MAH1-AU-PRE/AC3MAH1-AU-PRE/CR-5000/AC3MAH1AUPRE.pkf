@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AC3MAH1AUPRE"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AC3MAH1AUPRE")
+        (spec "default")
+    )
+)

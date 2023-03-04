@@ -1,0 +1,154 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "G6RL-1_24DC"
+   (description "SPDT PCB Mount Non-Latching Relay Through Hole, 10 (NO) A, 8 (NC) A, 24V dc")
+   (family "RLY")
+   (package "G6RL124DC")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/0419366")
+   (attribute "Geometry.Height" "12.3mm")
+   (attribute "RS Part Number" "0419366")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/0419366")
+   (attribute "Manufacturer_Name" "Omron Electronics")
+   (attribute "Manufacturer_Part_Number" "G6RL-1 24DC")
+   (gate
+    (symbol "G6RL-1_24DC")
+    (pin "COIL_1" 1 PS)
+    (pin "COM" 2 PS)
+    (pin "NO" 3 PS)
+    (pin "NC" 4 NC)
+    (pin "COIL_2" 5 PS)
+   )
+  )
+  (symbol "G6RL-1_24DC"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "G6RL124DC"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 27 -1.19)
+      (pt -1.5 -1.19)
+      (pt -1.5 8.81)
+      (pt 27 8.81)
+      (pt 27 -1.19))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 -2.19)
+      (pt 28 -2.19)
+      (pt 28 9.81)
+      (pt -2.5 9.81)
+      (pt -2.5 -2.19))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 8.81)
+      (pt -1.5 8.81)
+      (pt -1.5 -1.19)
+      (pt -1 -1.19))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.5 -1.19)
+      (pt 21 -1.19))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 23.5 -1.19)
+      (pt 27 -1.19)
+      (pt 27 8.81)
+      (pt 26.5 8.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 24 8.81)
+      (pt 20.5 8.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 18 8.81)
+      (pt 1.5 8.81))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2 0)
+      (arc (pt -2.000 0.000) (pt -2.200 0.100) (pt -2.000 -0.100) (start 180.0) (sweep -.0))
+      (pt -2.2 0)
+      (arc (pt -2.200 0.000) (pt -2.200 0.100) (pt -2.000 -0.100) (start 180.0) (sweep 180.0))
+      (pt -2 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 22.100 0.000) (padstack 0))
+   (leg 3 (pt 25.300 7.620) (padstack 0))
+   (leg 4 (pt 18.900 7.620) (padstack 0))
+   (leg 5 (pt 0.000 7.620) (padstack 0))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (round 2.100))
+   )
+   (model "G6RL-1_24DC.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

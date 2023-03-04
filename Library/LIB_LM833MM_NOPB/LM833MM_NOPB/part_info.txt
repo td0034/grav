@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM833MM/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-04-16 06:59:24
+Downloaded=2021-05-06 14:53:29
+3D=Y

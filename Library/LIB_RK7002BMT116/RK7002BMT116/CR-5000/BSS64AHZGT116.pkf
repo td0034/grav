@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BSS64AHZGT116"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BSS64AHZGT116")
+        (spec "default")
+    )
+)

@@ -1,0 +1,16 @@
+.LM833MM_NOPB :1 ;Texas Instruments LM833MM/NOPB, Dual Audio Op Amp, 15MHz, Maximum of 36 V, 8-Pin VSSOP
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="OUT A" 2="-IN A" 3="+IN A" 4="-VEE" 5="+IN B" 6="-IN B" 7="OUT B" 8="+VCC"
+*MXP 8
+*DFN LM833MM_NOPB
+~!RS Part Number (9142989P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/9142989P)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM833MM/NOPB)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/9142989P)
+~!Height (1.1mm)
+~!3D_Model (LM833MM_NOPB)
+LM833MM_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

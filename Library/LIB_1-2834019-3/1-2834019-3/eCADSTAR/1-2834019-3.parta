@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_633292"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-05-29-11:46:57)
+    (utime 2020-10-10-06:33:16)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "1-2834019-3")
+)
+
+
+(pinAssign "ECS_633292"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-05-29-11:46:57)
+    (utime 2020-10-10-06:33:16)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_633292")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1-2834019-3")
+)
+
+
+(part "1-2834019-3"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-05-29-11:46:57)
+    (utime 2020-10-10-06:33:16)
+    (packageRef "1-2834019-3")
+    (pinAssignRef "ECS_633292")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Conn PC Terminal Block RCP 3 POS 3.5mm Solder ST Thru-Hole 6A/Contact Box/Carton")
+    (property "RS_Part_Number" "1649144")
+    (property "RS_Price/Stock" "http://uk.rs-online.com/web/p/products/1649144")
+    (property "Manufacturer_Name" "TE Connectivity")
+    (property "Manufacturer_Part_Number" "1-2834019-3")
+    (property "Datasheet_Link" "http://uk.rs-online.com/web/p/products/1649144")
+    (property "compAreaTopHeight" 6.7)
+)
+
+

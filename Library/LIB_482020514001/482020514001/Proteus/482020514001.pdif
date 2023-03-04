@@ -1,0 +1,180 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "482020514001"
+   (description "Mechanical Incremental Encoder Switch, 2")
+   (family "SWI")
+   (package "482020514001")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/1854446P")
+   (attribute "Geometry.Height" "26.9mm")
+   (attribute "RS Part Number" "1854446P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/1854446P")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "482020514001")
+   (gate
+    (symbol "482020514001")
+    (pin "COM" 1 PS)
+    (pin "NO" 2 PS)
+    (pin "CCW" A1 PS)
+    (pin "CW" B1 PS)
+    (pin "WIPER" C1 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "482020514001"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 400) (pt 1000 400) (pt 1000 -600) (pt 200 -600) (pt 200 400) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -800) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "482020514001"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.25 8.35)
+      (pt 13.5 8.35)
+      (pt 13.5 -3.35)
+      (pt -0.25 -3.35)
+      (pt -0.25 8.35))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.75 10.52)
+      (pt 16.25 10.52)
+      (pt 16.25 -5.52)
+      (pt -1.75 -5.52)
+      (pt -1.75 10.52))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.2 0)
+      (arc (pt -1.200 0.000) (pt -1.400 0.100) (pt -1.200 -0.100) (start 180.0) (sweep -.0))
+      (pt -1.4 0)
+      (arc (pt -1.400 0.000) (pt -1.400 0.100) (pt -1.200 -0.100) (start 180.0) (sweep 180.0))
+      (pt -1.2 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.25 3.9)
+      (pt -0.25 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.25 -1.2)
+      (pt -0.25 -3.35)
+      (pt 4.5 -3.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 9.6 -3.35)
+      (pt 13.5 -3.35)
+      (pt 13.5 -0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 13.5 5.7)
+      (pt 13.5 8.35)
+      (pt 9.6 8.35))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 4.5 8.35)
+      (pt -0.25 8.35)
+      (pt -0.25 6))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 5.000) (padstack 0))
+   (leg A1 (pt 14.500 0.000) (padstack 0))
+   (leg B1 (pt 14.500 5.000) (padstack 0))
+   (leg C1 (pt 14.500 2.500) (padstack 0))
+   (leg MH1 (pt 7.000 -2.150) (padstack 6))
+   (leg MH2 (pt 7.000 7.150) (padstack 7))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 6
+    (hole 3.16)
+    (plated true)
+    (pad (layer TCOP) (round 4.740))
+    (pad (layer INNER) (round 4.740))
+    (pad (layer BCOP) (round 4.740))
+   )
+   (padstack 7
+    (hole 3.16)
+    (plated true)
+    (pad (layer TCOP) (round 4.740))
+    (pad (layer INNER) (round 4.740))
+    (pad (layer BCOP) (round 4.740))
+   )
+   (model "482020514001.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

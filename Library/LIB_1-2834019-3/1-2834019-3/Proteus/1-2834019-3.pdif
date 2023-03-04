@@ -1,0 +1,103 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1-2834019-3"
+   (description "Conn PC Terminal Block RCP 3 POS 3.5mm Solder ST Thru-Hole 6A/Contact Box/Carton")
+   (family "CON")
+   (package "128340193")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/1649144")
+   (attribute "Geometry.Height" "6.7mm")
+   (attribute "RS Part Number" "1649144")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/1649144")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "1-2834019-3")
+   (gate
+    (symbol "1-2834019-3")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "1-2834019-3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "128340193"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.1 7.7)
+      (pt 9.3 7.7)
+      (pt 9.3 -4.8)
+      (pt -2.1 -4.8)
+      (pt -2.1 7.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.1 7.7)
+      (pt 9.3 7.7)
+      (pt 9.3 -4.8)
+      (pt -2.1 -4.8)
+      (pt -2.1 7.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.1 8.7)
+      (pt 10.3 8.7)
+      (pt 10.3 -5.8)
+      (pt -3.1 -5.8)
+      (pt -3.1 8.7))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 3.500 5.000) (padstack 0))
+   (leg 3 (pt 7.000 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.4)
+    (plated true)
+    (pad (layer TCOP) (round 2.100))
+    (pad (layer INNER) (round 2.100))
+    (pad (layer BCOP) (round 2.100))
+   )
+   (model "1-2834019-3.stp"
+    (euler 90 0 180)
+    (offset 3.5999999046325684 10.010000228881836 0.07999999821186066)
+   )
+  )
+ )
+)

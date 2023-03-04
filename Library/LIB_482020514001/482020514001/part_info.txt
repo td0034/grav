@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=482020514001
+PartCategory=Switch
+PackageCategory=Other
+PinCount=7
+Version=1.11
+Released=2021-04-08 17:15:56
+Downloaded=2021-04-08 18:55:15
+3D=Y

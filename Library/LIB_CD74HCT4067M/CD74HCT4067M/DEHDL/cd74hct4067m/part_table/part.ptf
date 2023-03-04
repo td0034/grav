@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CD74HCT4067M'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "CD74HCT4067M" (!) = "", "SOIC127P1030X265-24N", "Small Outline Packages", "6622729P", "http://uk.rs-online.com/web/p/products/6622729P", "High-speed CMOS 16-channel analog multiplexer & demultiplexer with TTL inputs", "http://uk.rs-online.com/web/p/products/6622729P", "2.65 mm"
+END_PART
+
+END.

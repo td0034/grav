@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=M8S-04PMMR-SF8001
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.2
+Released=2020-01-21 11:18:53
+Downloaded=2022-08-24 11:34:14
+3D=Y

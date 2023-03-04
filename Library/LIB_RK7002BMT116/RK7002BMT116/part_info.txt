@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=RK7002BMT116
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2018-09-05 12:50:47
+Downloaded=2022-01-26 18:24:59
+3D=N

@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=PTV09A-4225F-B103
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2018-07-18 08:05:13
+Downloaded=2022-02-05 12:34:21
+3D=Y

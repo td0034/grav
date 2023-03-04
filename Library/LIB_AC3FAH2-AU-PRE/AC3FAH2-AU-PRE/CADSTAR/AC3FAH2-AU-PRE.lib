@@ -1,0 +1,16 @@
+.AC3FAH2-AU-PRE :1 ;XLR Connectors 3 SKT PLASTIC PANEL MOUNT PCB
+AC3FAH2AUPRE
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=G1
+*PLB 1="1" 2="2" 3="3" 4="G1"
+*MXP 6
+*DFN AC3FAH2-AU-PRE
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Amphenol)
+~!Manufacturer_Part_Number (AC3FAH2-AU-PRE)
+~!Link Datasheet (http://www.amphenol-sine.com/pdf/datasheet/AC3FAH2-AU-PRE.pdf)
+~!Height (29.45mm)
+AC3FAH2-AU-PRE
+1.1!U 2.1!U 3.1!U 4.1!U 

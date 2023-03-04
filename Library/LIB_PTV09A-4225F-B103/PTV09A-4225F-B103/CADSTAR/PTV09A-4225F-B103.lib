@@ -1,0 +1,17 @@
+.PTV09A-4225F-B103 :1 ;Bourns PTV09 Series Linear Potentiometer with a 6.8 mm Dia. Shaft, 10k, +/-20%, 0.05W, Horizontal/Rear Mount
+PTV09A4020FB103
+*STM R
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 5
+*DFN PTV09A-4225F-B103
+~!RS Part Number (8274990P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/8274990P)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (PTV09A-4225F-B103)
+~!Allied_Number (71279417)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/8274990P)
+~!Height (20mm)
+~!3D_Model (PTV09A-4225F-B103)
+PTV09A-4225F-B103
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

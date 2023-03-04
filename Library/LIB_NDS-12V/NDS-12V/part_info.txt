@@ -1,0 +1,9 @@
+Manufacturer=Diptronics
+PartNumber=NDS-12V
+PartCategory=Switch
+PackageCategory=Other
+PinCount=24
+Version=1.2
+Released=2019-10-09 17:38:40
+Downloaded=2021-05-04 14:15:51
+3D=Y

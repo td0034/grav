@@ -1,0 +1,117 @@
+
+(EDIF
+  (rename &AC3FAH2_AU_PRE "AC3FAH2_AU_PRE")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 01 26 10 45 58)
+      (dataOrigin "2667059/55039/2.49/4/3/Connector")
+      (program "SamacSys ECAD Model AC3FAH2_AU_PRE"
+        (version "1.6"))))
+  (library
+  (rename &AC3FAH2_AU_PRE "AC3FAH2_AU_PRE")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &AC3FAH2_AU_PRE "AC3FAH2_AU_PRE")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "AC3FAH2_AU_PRE"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "AC3FAH2AUPRE"))
+          (property (rename &RS_Part_Number "RS Part Number") (string ""))
+          (property (rename &RS_Price_Stock "RS Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Amphenol"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "AC3FAH2-AU-PRE"))
+          (property (rename &Description "Description") (string "XLR Connectors 3 SKT PLASTIC PANEL MOUNT PCB"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.amphenol-sine.com/pdf/datasheet/AC3FAH2-AU-PRE.pdf"))
+          (property (rename &Height "Height") (string "29.45 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "AC3FAH2_AU_PRE"))
+          (property (rename VALUE "Value") (string "Value"))
+          (property (rename &NC "NC") (string "MH1,MH2"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &G1 "G1")
+            (designator "G1")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 500 -100) (pt 700 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -100))))
+            )
+            (portImplementation
+              (name &G1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 500 -200) (pt 700 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 500 0)
+                  (pt 500 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 30))))
+          )
+        )
+      )
+    )
+  )
+)

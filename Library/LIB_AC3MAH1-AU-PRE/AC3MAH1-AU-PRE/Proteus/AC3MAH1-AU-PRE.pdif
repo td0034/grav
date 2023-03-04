@@ -1,0 +1,150 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AC3MAH1-AU-PRE"
+   (description "XLR Connectors 3 PIN PLASTIC PANEL MOUNT PCB")
+   (family "CON")
+   (package "AC3MAH1AUPRE")
+   (attribute "Datasheet Link" "https://www.amphenol-sine.com/pdf/datasheet/AC3MAH1-AU-PRE.pdf")
+   (attribute "Geometry.Height" "25.5mm")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (attribute "Manufacturer_Name" "Amphenol")
+   (attribute "Manufacturer_Part_Number" "AC3MAH1-AU-PRE")
+   (gate
+    (symbol "AC3MAH1-AU-PRE")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "AC3MAH1-AU-PRE"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "AC3MAH1AUPRE"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -16.51 -1.7)
+      (pt 8.89 -1.7)
+      (pt 8.89 17.8)
+      (pt -16.51 17.8)
+      (pt -16.51 -1.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -16.51 17.8)
+      (pt 8.89 17.8)
+      (pt 8.89 -1.7)
+      (pt -16.51 -1.7)
+      (pt -16.51 17.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -17.51 21.5)
+      (pt 9.89 21.5)
+      (pt 9.89 -2.7)
+      (pt -17.51 -2.7)
+      (pt -17.51 21.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -14.71 17.8)
+      (pt -14.71 20.5)
+      (pt 7.09 20.5)
+      (pt 7.09 17.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -14.71 17.8)
+      (pt -14.71 20.5)
+      (pt 7.09 20.5)
+      (pt 7.09 17.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -2.3)
+      (arc (pt 0.000 -2.300) (pt -0.050 -2.300) (pt 0.050 -2.200) (start 180.0) (sweep -90.0))
+      (pt 0 -2.2)
+      (arc (pt 0.000 -2.200) (pt -0.050 -2.300) (pt 0.050 -2.200) (start 180.0) (sweep 90.0))
+      (pt 0 -2.3))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -7.620 0.000) (padstack 2))
+   (leg 3 (pt -3.810 0.000) (padstack 3))
+   (leg MH1 (pt 0.000 8.890) (padstack 0))
+   (leg MH2 (pt -7.620 13.970) (padstack 0))
+   (padstack 0
+    (hole 1.6)
+    (plated false)
+    (pad (layer TCOP) (round 0.800))
+    (pad (layer INNER) (round 0.800))
+    (pad (layer BCOP) (round 0.800))
+   )
+   (padstack 1
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (padstack 2
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 3
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+  )
+ )
+)

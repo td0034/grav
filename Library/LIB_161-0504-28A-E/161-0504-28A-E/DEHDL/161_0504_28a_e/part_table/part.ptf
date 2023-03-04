@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '161_0504_28A_E'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kobiconn", "161-0504-28A-E" (!) = "", "161050428AE", "Other", "", "", "Circular DIN Connectors 5 PIN DIN PCB", "https://www.mouser.co.uk/datasheet/2/209/kobicon_KC-301439-1286607.pdf", "19.5 mm"
+END_PART
+
+END.

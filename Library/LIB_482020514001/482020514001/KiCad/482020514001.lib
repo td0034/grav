@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 482020514001
+#
+DEF 482020514001 S 0 30 Y Y 1 F N
+F0 "S" 1050 600 50 H V L CNN
+F1 "482020514001" 1050 500 50 H V L CNN
+F2 "482020514001" 1050 400 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1854446P" 1050 300 50 H I L CNN
+F4 "Mechanical Incremental Encoder Switch, 2" 1050 200 50 H I L CNN "Description"
+F5 "26.9" 1050 100 50 H I L CNN "Height"
+F6 "1854446P" 1050 0 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/1854446P" 1050 -100 50 H I L CNN "RS Price/Stock"
+F8 "Wurth Elektronik" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F9 "482020514001" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+X COM 1 0 -100 200 R 50 50 0 0 P
+X NO 2 0 0 200 R 50 50 0 0 P
+X CCW A1 1200 -200 200 L 50 50 0 0 P
+X CW B1 1200 0 200 L 50 50 0 0 P
+X WIPER C1 1200 -100 200 L 50 50 0 0 P
+X MH1 MH1 600 -800 200 U 50 50 0 0 P
+X MH2 MH2 600 600 200 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 482020514001_no_switch
+#
+DEF 482020514001_no_switch S 0 30 Y Y 1 F N
+F0 "S" 1050 600 50 H V L CNN
+F1 "482020514001_no_switch" 1050 500 50 H V L CNN
+F2 "482020514001" 1050 400 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1854446P" 1050 300 50 H I L CNN
+F4 "Mechanical Incremental Encoder Switch, 2" 1050 200 50 H I L CNN "Description"
+F5 "26.9" 1050 100 50 H I L CNN "Height"
+F6 "1854446P" 1050 0 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/1854446P" 1050 -100 50 H I L CNN "RS Price/Stock"
+F8 "Wurth Elektronik" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F9 "482020514001" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+X CCW A1 1200 -200 200 L 50 50 0 0 P
+X CW B1 1200 0 200 L 50 50 0 0 P
+X WIPER C1 1200 -100 200 L 50 50 0 0 P
+X MH1 MH1 600 -800 200 U 50 50 0 0 P
+X MH2 MH2 600 600 200 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

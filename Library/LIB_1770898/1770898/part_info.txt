@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1770898
+PartCategory=Connector
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2019-03-21 12:09:42
+Downloaded=2021-04-08 19:31:06
+3D=Y

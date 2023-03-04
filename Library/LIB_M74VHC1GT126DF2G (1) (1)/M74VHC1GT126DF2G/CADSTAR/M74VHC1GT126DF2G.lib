@@ -1,0 +1,15 @@
+.M74VHC1GT126DF2G :1 ;ON SEMICONDUCTOR - M74VHC1GT126DF2G - Buffer, 74VHC1G126, 3 V to 5.5 V, SOT-353-5
+M74VHC1GT126DF2G
+*STM IC
+*NGS
+*PLB 1="OE" 2="A" 3="GND" 4="Y" 5="VCC"
+*MXP 5
+*DFN M74VHC1GT126DF2G
+~!RS Part Number (1867274)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1867274)
+~!Manufacturer_Name (ON Semiconductor)
+~!Manufacturer_Part_Number (M74VHC1GT126DF2G)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/1867274)
+~!Height (1.1mm)
+M74VHC1GT126DF2G
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1_2834019_3'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1-2834019-3" (!) = "", "128340193", "Other", "1649144", "http://uk.rs-online.com/web/p/products/1649144", "Conn PC Terminal Block RCP 3 POS 3.5mm Solder ST Thru-Hole 6A/Contact Box/Carton", "http://uk.rs-online.com/web/p/products/1649144", "6.7 mm"
+END_PART
+
+END.

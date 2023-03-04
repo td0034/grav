@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STX-3790-5N"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-13-11:22:24)
+    (mountForm default
+        (footprintRef "STX37905N")
+        (spec "System")
+    )
+)

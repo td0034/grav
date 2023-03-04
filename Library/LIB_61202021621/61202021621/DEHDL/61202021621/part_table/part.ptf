@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '61202021621'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "61202021621" (!) = "", "SHDR20W64P254_2X10_3306X910X885P", "Header, Shrouded - Straight PTH Box", "7718351", "http://uk.rs-online.com/web/p/products/7718351", "Wurth Elektronik 612 Series, 2.54mm Pitch 20 Way 2 Row Straight PCB Header, Solder Termination, 3A", "http://uk.rs-online.com/web/p/products/7718351", "8.85 mm"
+END_PART
+
+END.

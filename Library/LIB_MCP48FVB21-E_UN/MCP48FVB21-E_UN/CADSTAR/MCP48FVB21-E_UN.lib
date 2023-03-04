@@ -1,0 +1,16 @@
+.MCP48FVB21-E_UN :1 ;Microchip MCP48FVB21-E/UN, 12 bit DAC, 10-Pin MSOP
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="'CS'" 3="VREF0" 4="VOUT0" 5="NC" 6="'LAT0'/HVC" 7="VSS" 8="SDO" 9="SCK" 10="SDI"
+*MXP 10
+*DFN MCP48FVB21-E_UN
+~!RS Part Number (9163680)
+~!Link RS Price/Stock (https://uk.rs-online.com/web/p/products/9163680)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP48FVB21-E/UN)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/DeviceDoc/20005466A.pdf)
+~!Height (1.1mm)
+~!3D_Model (MCP48FVB21-E_UN)
+MCP48FVB21-E_UN
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

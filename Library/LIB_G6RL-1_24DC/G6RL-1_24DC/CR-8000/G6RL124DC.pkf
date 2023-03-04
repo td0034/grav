@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "G6RL124DC"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "G6RL124DC")
+        (spec "default")
+    )
+)

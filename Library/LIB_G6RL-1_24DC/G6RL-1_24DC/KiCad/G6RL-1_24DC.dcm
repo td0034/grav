@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G6RL-1_24DC
+D SPDT PCB Mount Non-Latching Relay Through Hole, 10 (NO) A, 8 (NC) A, 24V dc
+K
+F http://uk.rs-online.com/web/p/products/0419366
+$ENDCMP
+#
+#End Doc Library

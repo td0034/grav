@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STX_3790_5N'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kycon", "STX-3790-5N" (!) = "", "STX37905N", "Other", "", "", "Phone Connectors 3.5MM VERT MNT 3POLE 5P BLK W/O PLATE", "http://www.kycon.com/Pub_Eng_Draw/STX-3790-5N.pdf", "13.25 mm"
+END_PART
+
+END.

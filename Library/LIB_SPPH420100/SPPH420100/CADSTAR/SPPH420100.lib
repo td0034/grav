@@ -1,0 +1,16 @@
+.SPPH420100 :1 ;Double Pole Double Throw (DPDT) Latching Push Button Switch, PCB, 30V dc
+SPPH420100
+*STM S
+*NGS
+*PLB 1="NC_1" 2="COMMON_1" 3="NO_1" 4="NC_2" 5="COMMON_2" 6="NO_2"
+*MXP 6
+*DFN SPPH420100
+~!RS Part Number (1239052)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1239052)
+~!Manufacturer_Name (ALPS Electric)
+~!Manufacturer_Part_Number (SPPH420100)
+~!Link Datasheet (http://uk.rs-online.com/web/p/products/1239052)
+~!Height (18mm)
+~!3D_Model (SPPH420100)
+SPPH420100
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

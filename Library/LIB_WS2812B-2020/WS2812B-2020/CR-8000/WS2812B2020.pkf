@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "WS2812B2020"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "WS2812B2020")
+        (spec "default")
+    )
+)

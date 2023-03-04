@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "161-0504-28A-E"
+   (description "Circular DIN Connectors 5 PIN DIN PCB")
+   (family "CON")
+   (package "161050428AE")
+   (attribute "Datasheet Link" "https://www.mouser.co.uk/datasheet/2/209/kobicon_KC-301439-1286607.pdf")
+   (attribute "Geometry.Height" "19.5mm")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (attribute "Manufacturer_Name" "Kobiconn")
+   (attribute "Manufacturer_Part_Number" "161-0504-28A-E")
+   (gate
+    (symbol "161-0504-28A-E")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+   )
+  )
+  (symbol "161-0504-28A-E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "161050428AE"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -18 6.5)
+      (pt 3 6.5)
+      (pt 3 -12.4)
+      (pt -18 -12.4)
+      (pt -18 6.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -18 -12.4)
+      (pt 3 -12.4)
+      (pt 3 6.5)
+      (pt -18 6.5)
+      (pt -18 -12.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -19 -13.4)
+      (pt 4 -13.4)
+      (pt 4 7.5)
+      (pt -19 7.5)
+      (pt -19 -13.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 3.5 0)
+      (arc (pt 3.500 0.000) (pt 3.500 0.050) (pt 3.600 -0.050) (start 180.0) (sweep 180.0))
+      (pt 3.6 0)
+      (arc (pt 3.600 0.000) (pt 3.500 0.050) (pt 3.600 -0.050) (start 180.0) (sweep -.0))
+      (pt 3.5 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -7.500 0.000) (padstack 0))
+   (leg 3 (pt -15.000 0.000) (padstack 0))
+   (leg 4 (pt -2.500 2.500) (padstack 0))
+   (leg 5 (pt -12.500 2.500) (padstack 0))
+   (leg MH1 (pt -2.500 -9.900) (padstack 0))
+   (leg MH2 (pt -12.500 -9.900) (padstack 0))
+   (padstack 0
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (round 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (round 2.250))
+   )
+   (padstack 1
+    (hole 1.5)
+    (plated true)
+    (pad (layer TCOP) (square 2.250))
+    (pad (layer INNER) (round 2.250))
+    (pad (layer BCOP) (square 2.250))
+   )
+   (model "161-0504-28A-E.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP47CVB28-E_ML
+D Digital to Analog Converters - DAC Qctal Channel, 12-Bi t, volatile, I2C DA
+K
+F https://www.mouser.mx/datasheet/2/268/MCP47CXBX4_8_Data_Sheet_20006537B-2504519.pdf
+$ENDCMP
+#
+#End Doc Library

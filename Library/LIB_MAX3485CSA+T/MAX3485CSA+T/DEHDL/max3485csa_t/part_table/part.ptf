@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX3485CSA_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Maxim Integrated", "MAX3485CSA+T" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "", "", "RS-422/RS-485 Interface IC", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-339988.pdf", "1.75 mm"
+END_PART
+
+END.

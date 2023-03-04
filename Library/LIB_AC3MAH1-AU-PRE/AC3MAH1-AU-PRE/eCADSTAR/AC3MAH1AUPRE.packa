@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AC3MAH1-AU-PRE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-01-26-11:52:16)
+    (mountForm default
+        (footprintRef "AC3MAH1AUPRE")
+        (spec "System")
+    )
+)

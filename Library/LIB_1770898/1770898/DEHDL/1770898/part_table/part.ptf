@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1770898'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1770898" (!) = "", "1770898", "Other", "7124579", "http://uk.rs-online.com/web/p/products/7124579", "70170416", "Phoenix Contact COMBICON PTSM Series 2.5mm Pitch Straight PCB Terminal Block with Spring Cage Termination, Through Hole", "http://uk.rs-online.com/web/p/products/7124579", "5.1 mm"
+END_PART
+
+END.

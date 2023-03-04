@@ -1,0 +1,17 @@
+.PTA3043-2015CPB103 :1 ;Slide Potentiometers 15mm Shaft 10K Ohms Sgl Gang Met Lev Lin
+PTA30432015CPB103
+*STM VR
+*NGS
+*PNM 1=1 2=2 3=3 4=MH1 5=MH2 6=MH3 7=MH4
+*PLB 1="CCW" 2="WIPER" 3="CW" 4="MH1" 5="MH2" 6="MH3" 7="MH4"
+*MXP 7
+*DFN PTA3043-2015CPB103
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (PTA3043-2015CPB103)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/pta.pdf)
+~!Height (21.5mm)
+~!3D_Model (PTA3043-2015CPB103)
+PTA3043-2015CPB103
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 
